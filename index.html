@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index Page</title>
+  </head>
+  <body>
+    <form method="POST" action="FormServlet">
+      <table>
+        <tr>
+          <td>First Name :</td>
+          <td><input type="text" name="first_name" /></td>
+        </tr>
+        <tr>
+          <td>Last Name :</td>
+          <td><input type="text" name="last_name" /></td>
+        </tr>
+        <tr>
+          <td>Date Of Birth :</td>
+          <td><input type="date" name="birth_date" /></td>
+        </tr>
+        <tr>
+          <td>Sexe :</td>
+          <td><input type="radio" name="sexe" value="male" />Male</td>
+          <td><input type="radio" name="sexe" value="female" />Male</td>
+        </tr>
+      </table>
+      <button type="submit">Send</button>
+      <br />
+      <br />
+      <a href="http://localhost:8080/demo1/ReadCookie"
+        >click here for cookies</a
+      >
+      <br />
+      <br />
+      <a href="http://localhost:8080/demo1/ShowSession"
+        >click here for session <managmenet></managmenet
+      ></a>
+    </form>
+  </body>
+</html>
